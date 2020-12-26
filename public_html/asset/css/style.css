@@ -363,6 +363,58 @@ margin-right: 33%;
 
 
 
+/*******************************************************************************
+------------------------ CUSTOMERS REVIEWS part ------------------------------------------- 
+*******************************************************************************/
+.custom_reviews{
+    background-color:#F7F7F5;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+.custom_reviews_heading{
+    text-align: center;
+}
+
+h1.custom_reviews_heading_set{
+    display: inline;
+    color: #EA5E2A;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+
+.customer_reviews_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 2%;
+    text-align: center;
+     
+}
+
+.customer_reviews_box{
+    background-color: #F7F7F7;  
+    width:30%;
+   padding-top: 1%; 
+   border:1px solid black;
+   border-radius: 10px ; 
+
+}
+
+.reviews_box_text{
+    padding-left:7%;
+    padding-right:7%;
+    padding-bottom: 5%;
+     
+}
+
+
+
 
 
 
