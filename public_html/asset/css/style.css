@@ -1,0 +1,382 @@
+
+body {
+    background-color: #FBFBFB;
+}
+
+/*******************************************************************************
+------------------------ Header part ------------------------------------------- 
+*******************************************************************************/
+
+
+.bg-light{
+    background-color:#FBFBFB!important;
+} 
+
+.main-navigation > ul{
+    font-weight: bold;
+    list-style: none;
+}
+
+
+.main-navigation > ul > li {
+    margin: 0px 24px;
+    padding: -36px 0px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.main-navigation ul > li > a:hover {
+    color:chartreuse;
+}
+
+
+.contact-header {
+    margin-left:20%;
+    display: inline-flex;
+    /*     flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;*/
+}
+
+
+.contact-header .cinfo-phone{
+    float: left;
+    margin-top: 10%;
+    margin-right:  10%;
+    padding-right: 2%;
+    /*   background-color: yellow;*/
+
+
+}
+.contact-header .cinfo-number{
+    float: right;
+    /*      background-color: yellowgreen;*/
+
+}
+
+.contact-header  .cinfo-number span{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #1b1d21;
+    margin-top: 7px;
+}
+
+.contact-header  .cinfo-number .main-text {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    margin-top: 7px;
+}
+
+
+
+/*******************************************************************************
+------------------------ Banner part ------------------------------------------- 
+*******************************************************************************/
+
+
+.banner-section{
+    background-color: #EA5E2A;
+    width:100%;
+    height: 650px;
+
+}
+ 
+
+
+.banner-text-wrap{
+    text-align: center;
+    position: absolute;
+    top:40%;
+    left:20%;
+    transform: translate( -10%, -10%);
+
+}
+
+.banner_text{
+    color: #FFFFFF;
+    font-size:20px;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 0em;
+    text-shadow: 0px 0px 10px #000000;
+
+}
+
+
+
+
+h1.heading_title{
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #000000;
+    line-height: 0.9em;
+    padding-top: 2%;
+
+}
+
+
+P.p_bottom_title{
+    padding-top:2%;
+    color: #ECDCDC;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-shadow: 0px 0px 10px #000000;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************************************
+------------------------ Servicce part ------------------------------------------- 
+*******************************************************************************/
+.service_section{
+    display:flex;
+ 
+} 
+
+
+.main_heading_name{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom:  3%;
+
+
+}
+
+h1.main_heading_name_set{
+    display: inline;
+    color: #EA5E2A;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+
+.service_section{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+h3.service_section_heading_name_set{
+    color: #54595F;
+    font-size: 22px;
+    font-weight: 600; 
+    margin-bottom: 10%;
+     
+}
+
+
+p.service_section_main_details{
+    color: #54595F;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+
+
+
+
+
+/*******************************************************************************
+------------------------ about part ------------------------------------------- 
+*******************************************************************************/
+
+.about_container{
+    background-color:#F7F7F5;
+}
+
+
+.about_section_name{
+     text-align: center;
+    padding-top: 2%;
+    padding-bottom:  3%;
+}
+
+
+
+h1.about_section_name_set{
+     display: inline;
+    color: #EA5E2A;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2em;
+   
+    
+}
+.about_section{
+     display:flex; 
+     width: 100%;
+     text-align: justify;
+      
+}
+
+.about_section_company{
+    width: 50%;
+    margin-right: 2%;
+   
+   
+    
+}
+
+p.about_our_cp {
+    color: #54595F;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+
+.about_section_photo{
+ width: 50%;
+  
+
+ }
+ 
+.photo_set{
+    width:100%;
+    height:300px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+/*******************************************************************************
+------------------------ Our Software part ------------------------------------------- 
+*******************************************************************************/
+
+
+.software_section_name{
+     text-align: center;
+    padding-top: 2%;
+    padding-bottom:  3%;
+    
+}
+
+h1.software_section_name_set{
+    display: inline;
+    color: #EA5E2A;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2em;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .contact-header {
+        display: block;
+        visibility: hidden;
+
+    }}
+
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {  
+    .contact-header {
+        margin-left:0%;
+        display: inline-flex;
+
+    }
+
+    /* end of (min-width: 768px)*/
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+    .contact-header {
+        margin-left:0%;
+        display: inline-flex;
+
+    }
+
+    /* end of (min-width: 576px) */
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+    .contact-header {
+        margin-left:0%;
+        display: inline-flex;
+
+    }
+
+
+
+    
+    /****** Banner part**********/
+    
+
+    
+    
+    
+    
+    
+    
+
+    /* end of (max-width: 575.98px) */
+}
+
+
+
+
+
+
+
