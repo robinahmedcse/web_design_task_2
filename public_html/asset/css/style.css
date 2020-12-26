@@ -268,11 +268,37 @@ p.about_our_cp {
 ------------------------ Our Software part ------------------------------------------- 
 *******************************************************************************/
 
+.software_cntainer{
+    margin-bottom: 4%;
+}
+.software_elemant{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+     
+}
+
+
+.software_elemant_wrap{
+
+     background-color: #F7F7F7;  
+     width:30%;
+    padding-top: 1%; 
+    border-radius: 10px; 
+
+}
+
+
+.software_element_wrap_set{
+padding: 4%;
+box-shadow: 0 0 1% #bac3c3;
+}
 
 .software_section_name{
      text-align: center;
     padding-top: 2%;
-    padding-bottom:  3%;
+    padding-bottom: 3%;
     
 }
 
@@ -287,9 +313,47 @@ h1.software_section_name_set{
 }
 
 
+h3.software_element-heading_set{
+    text-align: center;
+    color: #54595F;
+    font-size: 19px;
+    font-weight: 506;
+    margin-bottom: 6%;
+}
+
+p.software_element_text_set{
+    text-align: center;
+    color: #54595F;
+font-size: 18px;
+font-weight: 300;
+line-height: 1.3em;
+}
+ 
 
 
+.software_element_button_wrap{
+margin-left: 33%;
+margin-right: 33%;
+}
 
+
+.software_element_button{
+    display: inline-block;
+    line-height: 1;
+    background-color: #818a91;
+    font-size: 15px;
+    padding: 1%;
+    border-radius: 3px;
+}
+
+
+.software_btn{
+    text-align: center;
+    color: whitesmoke;
+}
+ 
+     
+ 
 
 
 
